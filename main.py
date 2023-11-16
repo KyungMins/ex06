@@ -1,11 +1,16 @@
-def 대문자로_변환(입력_문자열):
-    대문자_문자열 = 입력_문자열.upper()
-    return 대문자_문자열
+def to_uppercase(input_string):
+    return input_string.upper()
 
-# 예제 사용
-원본_문자열 = "Hello, World!"
-변환된_문자열 = 대문자로_변환(원본_문자열)
+# 사용 예제
+original_string = "hello, world!"
+result = to_uppercase(original_string)
+print(result)
 
-print(f"원본 문자열: {원본_문자열}")
-print(f"대문자로 변환된 문자열: {변환된_문자열}")
+def add_numbers(a, b):
+    return a + b
 
+# 사용 예제
+num1 = 5
+num2 = 10
+result = add_numbers(num1, num2)
+print(f"The sum of {num1} and {num2} is: {result}")
